@@ -15,6 +15,15 @@
 		634AE2401E82280900FB80AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634AE23E1E82280900FB80AC /* LaunchScreen.storyboard */; };
 		634AE24B1E82280A00FB80AC /* GZLineProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE24A1E82280A00FB80AC /* GZLineProjectTests.m */; };
 		634AE2561E82280A00FB80AC /* GZLineProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE2551E82280A00FB80AC /* GZLineProjectUITests.m */; };
+		634AE2661E8228B500FB80AC /* GDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE2641E8228B500FB80AC /* GDetailCell.m */; };
+		634AE2671E8228B500FB80AC /* GDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634AE2651E8228B500FB80AC /* GDetailCell.xib */; };
+		634AE26F1E822F2900FB80AC /* GMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE26D1E822F2900FB80AC /* GMainController.m */; };
+		634AE2701E822F2900FB80AC /* GMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634AE26E1E822F2900FB80AC /* GMainController.xib */; };
+		634AE2731E8230BC00FB80AC /* GHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE2721E8230BC00FB80AC /* GHeaderView.m */; };
+		634AE2771E8267A500FB80AC /* GTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE2761E8267A500FB80AC /* GTextField.m */; };
+		634AE27A1E82718100FB80AC /* UIView+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE2791E82718100FB80AC /* UIView+Additon.m */; };
+		634AE27E1E827F0300FB80AC /* GLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE27C1E827F0300FB80AC /* GLineController.m */; };
+		634AE27F1E827F0300FB80AC /* GLineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634AE27D1E827F0300FB80AC /* GLineController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		634AE2511E82280A00FB80AC /* GZLineProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GZLineProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634AE2551E82280A00FB80AC /* GZLineProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZLineProjectUITests.m; sourceTree = "<group>"; };
 		634AE2571E82280A00FB80AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634AE2631E8228B500FB80AC /* GDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDetailCell.h; sourceTree = "<group>"; };
+		634AE2641E8228B500FB80AC /* GDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDetailCell.m; sourceTree = "<group>"; };
+		634AE2651E8228B500FB80AC /* GDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDetailCell.xib; sourceTree = "<group>"; };
+		634AE26C1E822F2900FB80AC /* GMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainController.h; sourceTree = "<group>"; };
+		634AE26D1E822F2900FB80AC /* GMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainController.m; sourceTree = "<group>"; };
+		634AE26E1E822F2900FB80AC /* GMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMainController.xib; sourceTree = "<group>"; };
+		634AE2711E8230BC00FB80AC /* GHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHeaderView.h; sourceTree = "<group>"; };
+		634AE2721E8230BC00FB80AC /* GHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHeaderView.m; sourceTree = "<group>"; };
+		634AE2751E8267A500FB80AC /* GTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTextField.h; sourceTree = "<group>"; };
+		634AE2761E8267A500FB80AC /* GTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTextField.m; sourceTree = "<group>"; };
+		634AE2781E82718100FB80AC /* UIView+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additon.h"; sourceTree = "<group>"; };
+		634AE2791E82718100FB80AC /* UIView+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additon.m"; sourceTree = "<group>"; };
+		634AE27B1E827F0300FB80AC /* GLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLineController.h; sourceTree = "<group>"; };
+		634AE27C1E827F0300FB80AC /* GLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLineController.m; sourceTree = "<group>"; };
+		634AE27D1E827F0300FB80AC /* GLineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLineController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +125,11 @@
 		634AE22F1E82280600FB80AC /* GZLineProject */ = {
 			isa = PBXGroup;
 			children = (
-				634AE2331E82280600FB80AC /* AppDelegate.h */,
-				634AE2341E82280600FB80AC /* AppDelegate.m */,
-				634AE2361E82280700FB80AC /* ViewController.h */,
-				634AE2371E82280700FB80AC /* ViewController.m */,
-				634AE2391E82280700FB80AC /* Main.storyboard */,
-				634AE23C1E82280800FB80AC /* Assets.xcassets */,
-				634AE23E1E82280900FB80AC /* LaunchScreen.storyboard */,
-				634AE2411E82280900FB80AC /* Info.plist */,
+				634AE2741E82678800FB80AC /* Category */,
+				634AE2681E8228BE00FB80AC /* Controller */,
+				634AE2691E8228C800FB80AC /* Views */,
+				634AE26A1E8228D100FB80AC /* Model */,
+				634AE26B1E8228D800FB80AC /* Other */,
 				634AE2301E82280600FB80AC /* Supporting Files */,
 			);
 			path = GZLineProject;
@@ -138,6 +159,64 @@
 				634AE2571E82280A00FB80AC /* Info.plist */,
 			);
 			path = GZLineProjectUITests;
+			sourceTree = "<group>";
+		};
+		634AE2681E8228BE00FB80AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				634AE26C1E822F2900FB80AC /* GMainController.h */,
+				634AE26D1E822F2900FB80AC /* GMainController.m */,
+				634AE26E1E822F2900FB80AC /* GMainController.xib */,
+				634AE27B1E827F0300FB80AC /* GLineController.h */,
+				634AE27C1E827F0300FB80AC /* GLineController.m */,
+				634AE27D1E827F0300FB80AC /* GLineController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		634AE2691E8228C800FB80AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				634AE2631E8228B500FB80AC /* GDetailCell.h */,
+				634AE2641E8228B500FB80AC /* GDetailCell.m */,
+				634AE2651E8228B500FB80AC /* GDetailCell.xib */,
+				634AE2711E8230BC00FB80AC /* GHeaderView.h */,
+				634AE2721E8230BC00FB80AC /* GHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		634AE26A1E8228D100FB80AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		634AE26B1E8228D800FB80AC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				634AE2781E82718100FB80AC /* UIView+Additon.h */,
+				634AE2791E82718100FB80AC /* UIView+Additon.m */,
+				634AE2361E82280700FB80AC /* ViewController.h */,
+				634AE2371E82280700FB80AC /* ViewController.m */,
+				634AE2391E82280700FB80AC /* Main.storyboard */,
+				634AE2331E82280600FB80AC /* AppDelegate.h */,
+				634AE2341E82280600FB80AC /* AppDelegate.m */,
+				634AE23C1E82280800FB80AC /* Assets.xcassets */,
+				634AE23E1E82280900FB80AC /* LaunchScreen.storyboard */,
+				634AE2411E82280900FB80AC /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		634AE2741E82678800FB80AC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				634AE2751E8267A500FB80AC /* GTextField.h */,
+				634AE2761E8267A500FB80AC /* GTextField.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +330,10 @@
 			files = (
 				634AE2401E82280900FB80AC /* LaunchScreen.storyboard in Resources */,
 				634AE23D1E82280800FB80AC /* Assets.xcassets in Resources */,
+				634AE2701E822F2900FB80AC /* GMainController.xib in Resources */,
+				634AE2671E8228B500FB80AC /* GDetailCell.xib in Resources */,
 				634AE23B1E82280700FB80AC /* Main.storyboard in Resources */,
+				634AE27F1E827F0300FB80AC /* GLineController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				634AE2381E82280700FB80AC /* ViewController.m in Sources */,
+				634AE2731E8230BC00FB80AC /* GHeaderView.m in Sources */,
+				634AE27A1E82718100FB80AC /* UIView+Additon.m in Sources */,
+				634AE26F1E822F2900FB80AC /* GMainController.m in Sources */,
+				634AE27E1E827F0300FB80AC /* GLineController.m in Sources */,
+				634AE2771E8267A500FB80AC /* GTextField.m in Sources */,
 				634AE2351E82280600FB80AC /* AppDelegate.m in Sources */,
+				634AE2661E8228B500FB80AC /* GDetailCell.m in Sources */,
 				634AE2321E82280600FB80AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

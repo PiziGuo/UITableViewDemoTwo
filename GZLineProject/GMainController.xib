@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GMainController">
+            <connections>
+                <outlet property="tableView" destination="PiV-eO-Yri" id="vy4-Kf-gT9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="PiV-eO-Yri">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Cky-ot-SEy"/>
+                        <outlet property="delegate" destination="-1" id="dpA-OG-e2e"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bC-QE-R4j">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <state key="normal" title="+ 添加楼层">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addNewFloor:" destination="-1" eventType="touchUpInside" id="GQf-05-fdv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4bC-QE-R4j" secondAttribute="bottom" id="77B-xu-mjI"/>
+                <constraint firstItem="PiV-eO-Yri" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MuO-sr-pKX"/>
+                <constraint firstItem="4bC-QE-R4j" firstAttribute="top" secondItem="PiV-eO-Yri" secondAttribute="bottom" id="STu-w6-Ior"/>
+                <constraint firstAttribute="bottom" secondItem="PiV-eO-Yri" secondAttribute="bottom" constant="40" id="VNC-Dl-Mg3"/>
+                <constraint firstAttribute="trailing" secondItem="4bC-QE-R4j" secondAttribute="trailing" id="byl-rB-Up0"/>
+                <constraint firstItem="PiV-eO-Yri" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kCQ-ay-MkS"/>
+                <constraint firstAttribute="trailing" secondItem="PiV-eO-Yri" secondAttribute="trailing" id="tON-Mp-tla"/>
+                <constraint firstItem="4bC-QE-R4j" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vGY-cq-f1r"/>
+            </constraints>
+            <point key="canvasLocation" x="-160.5" y="11.5"/>
+        </view>
+    </objects>
+</document>
